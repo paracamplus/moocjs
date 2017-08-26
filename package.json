@@ -1,0 +1,36 @@
+{
+    "name": "moocjs",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">= 7"
+    },
+    "description": "A Docker container with node.js and useful npm modules sufficient to run the exercises of the MOOC Diffuse JavaScript",
+    "keywords": [
+        "MOOC Diffuse JavaScript",
+        "JavaScript program grading"
+    ],
+    "homepage": "https://github.com/paracamplus/moocjs",
+    "bugs": {
+        "url": "https://github.com/paracamplus/moocjs/issues",
+        "author": "Christian.Queinnec@CodeGradX.org"
+    },
+    "author": {
+        "name": "Christian Queinnec",
+        "email": "Christian.Queinnec@CodeGradX.org",
+        "url": "http://christian.queinnec.org/"
+    },
+    "license": "ISC",
+    "main": "server.js",
+    "scripts": {
+        "start": "node"
+    },
+    "dependencies": {
+        "jshint": "^2.9.5",
+        "jasmine": "^2.8",
+        "codegradxmarker": "^1.0.23",
+        "browserify": "^14.4",
+        "sax": "^1.2.4",
+        "xml2js": "^0.4.19",
+        "djs-chain": "^1.0.10"
+    }
+}
