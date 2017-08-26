@@ -33,11 +33,18 @@ Here are some example using other options:
 ``` sh
 docker run --rm -v $(pwd):/usr/src/app paracamplus/moocjs jasmine
 docker run --rm -v $(pwd):/usr/src/app paracamplus/moocjs jasmine spec/test1-spec.js
-
 ```
 
 This command will run jasmine on all tests of the current `spec/`
 sub-directory. The second command run jasmine on a single test file.
+
+
+``` sh
+docker run --rm paracamplus/moocjs npm ls
+```
+
+This command will list all installed packages and their dependencies.
+
 
 ``` sh
 docker run --rm paracamplus/moocjs bash

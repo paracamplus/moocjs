@@ -20,10 +20,6 @@
         "url": "http://christian.queinnec.org/"
     },
     "license": "ISC",
-    "main": "server.js",
-    "scripts": {
-        "start": "node"
-    },
     "dependencies": {
         "jshint": "^2.9.5",
         "jasmine": "^2.8",
