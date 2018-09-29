@@ -1,16 +1,17 @@
 #! /bin/bash
 
 usage () {
+    local PRG='docker run paracamplus/moocjs'
     cat <<EOF
-Usage: $0 [options...]
+Usage: $PRG [options...]
 Mainly runs a Docker container with Node.js 
   -h     print this help
 
- $0 jasmine [options]   runs jasmine [options]
- $0 bash [options]      runs bash [options]
- $0 npm [options]       runs npm [options] #within /usr/local/lib/node_modules
- $0 node [options]      runs node [options]
- $0 [options]           runs node [options]
+ $PRG jasmine [options]   runs jasmine [options]
+ $PRG bash [options]      runs bash [options]
+ $PRG npm [options]       runs npm [options] #within /usr/local/lib/node_modules
+ $PRG node [options]      runs node [options]
+ $PRG [options]           runs node [options]
 
 EOF
 }

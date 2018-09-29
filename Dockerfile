@@ -1,10 +1,11 @@
 # Docker container paracamplus/moocjs
+# NOTA: sqlite3 does not compile with node:10
 
-FROM node
+FROM node:8-stretch
 LABEL maintainer="Christian.Queinnec@CodeGradX.org"
 
 RUN apt-get update && \
-    apt-get install -y rsync && \
+    apt-get install -y rsync sqlite3 && \
     apt-get clean
 
 WORKDIR /tmp

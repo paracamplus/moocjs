@@ -1,6 +1,6 @@
 {
     "name": "moocjs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "node": ">= 7"
     },
@@ -17,16 +17,16 @@
     "author": {
         "name": "Christian Queinnec",
         "email": "Christian.Queinnec@CodeGradX.org",
-        "url": "http://christian.queinnec.org/"
+        "url": "https://christian.queinnec.org/"
     },
     "license": "ISC",
     "dependencies": {
-        "jshint": "^2.9.5",
+        "eslint": "^4.19",
         "jasmine": "^2.8",
         "codegradxmarker": "^1.0.23",
         "browserify": "^14.4",
         "sax": "^1.2.4",
         "xml2js": "^0.4.19",
-        "djs-chain": "^1.0.10"
+        "djs-chain": "^1.0.11"
     }
 }
