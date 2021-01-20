@@ -21,12 +21,12 @@
     },
     "license": "ISC",
     "dependencies": {
+        "browserify": "^14.4",
+        "codegradxmarker": "^1.0.23",
+        "djs-chain": "^1.0.11",
         "eslint": "^4.19",
         "jasmine": "^2.8",
-        "codegradxmarker": "^1.0.23",
-        "browserify": "^14.4",
         "sax": "^1.2.4",
-        "xml2js": "^0.4.19",
-        "djs-chain": "^1.0.11"
+        "xml2js": "^0.4.19"
     }
 }
